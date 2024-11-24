@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(65, 116, 69, 0.877);
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login{
+            background-color:antiquewhite;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgb(38, 133, 221);
+            margin-top: 10%;
+            margin-left: 35%;
+            width: 400px;   
+
+        }
+        .login h2 {
+            text-align: center;
+            margin-bottom: auto;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .login input{
+            padding: 2%;
+            margin-bottom: 5%;
+            margin-left: 8%;
+
+        }
+        .login button{
+            padding: 4% 30%;
+            background-color: rgb(68, 145, 145);
+            margin-left: 8%;
+            font-size:medium;
+        }
+        .link {
+            margin-left: 42%;
+            margin-top: -5%;
+        }
+        .heading{
+            background-color: rgb(255, 255, 255);
+            padding: 1%;
+            box-shadow:  0 4px 8px  white;
+            }
+
+        .fb{
+            background-color: antiquewhite;
+            color: rgb(6, 6, 6);
+            padding: 15px 20px;
+            text-align: right;
+            box-shadow:  0 4px 8px  ;
+            
+            
+                 }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>Q_Space </h1>
+        <p>by iQOO</p>
+        </div>
+    <div class="fb">
+        <a href="/contact">CONTACT US</a>
+        <a href="/feedback">FEEDBACK</a>
+
+    </div>
+
+    
+    <div class="login">
+    <form action="" method='POST'>        
+        <h2>REGISTER HERE...</h2>
+        <div>
+        <P>USER NAME:</P>
+        <input type="text" id="login"
+        placeholder="ENTER USERNAME" name="int1">
+        </div>
+        <div> 
+        <P>DATE OF BIRTH:</P>
+        <input type="date" ID="DOB"
+        placeholder="DOB">
+        </div>
+        <P>LANGUAGE: </P>
+        <div>
+    
+        <input type="checkbox" value="English">
+        <label for="">English</label></h3>
+        </div>
+        <div> 
+                     
+        <input type="checkbox" value="Telugu">
+        <label for="">Telugu</label> </h3>
+        </div>  
+        <div> 
+                      
+        <input type="checkbox" value="Hindi">
+        <label for="">Hindi</label> </h3>
+        </div>    
+        <label for="gender">What is your gender?</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <div>
+        <p>ENTER PASSWORD:</p>
+        <input type="password" id="password"
+        placeholder="CREATE PASSWORD">
+        </div>
+        <div>
+        <input type="password" id="password"
+        placeholder="RE-ENTER PASSWORD" name="int2">
+        </div>        
+
+
+        <button type="submit">LOGIN </button>
+
+        </div>
+    </form>
+</body>
+</html>
